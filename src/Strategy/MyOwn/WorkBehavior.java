@@ -1,5 +1,5 @@
 package Strategy.MyOwn;
 
 interface WorkBehavior {
-    void work();
+    void work(String subject);
 }

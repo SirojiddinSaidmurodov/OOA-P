@@ -1,5 +1,5 @@
 package Strategy.MyOwn;
 
 interface MoveBehavior {
-    void move();
+    void move(String place);
 }
