@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class MuteQuack implements QuackBehavior {
+class MuteQuack implements QuackBehavior {
 
     @Override
     public void quack() {

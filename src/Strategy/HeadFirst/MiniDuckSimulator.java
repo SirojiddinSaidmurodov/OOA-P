@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class MiniDuckSimulator {
+class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
         mallard.performQuack();

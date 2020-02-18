@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class Quack implements QuackBehavior {
+class Quack implements QuackBehavior {
 
     @Override
     public void quack() {

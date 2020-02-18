@@ -1,6 +1,6 @@
 package Strategy.Garbage;
 
-public class MallardDuck extends Duck implements Flyable, Quackable {
+class MallardDuck extends Duck implements Flyable, Quackable {
 
     @Override
     void display() {

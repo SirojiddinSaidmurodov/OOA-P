@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class FlyWithWings implements FlyBehavior {
+class FlyWithWings implements FlyBehavior {
 
     @Override
     public void fly() {

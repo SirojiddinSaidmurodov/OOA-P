@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class Squeak implements QuackBehavior {
+class Squeak implements QuackBehavior {
 
     @Override
     public void quack() {

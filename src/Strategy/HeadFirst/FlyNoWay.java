@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class FlyNoWay implements FlyBehavior {
+class FlyNoWay implements FlyBehavior {
 
 
     @Override

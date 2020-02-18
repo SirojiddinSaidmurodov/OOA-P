@@ -1,6 +1,6 @@
 package Strategy.Garbage;
 
-public class DecoyDuck extends Duck {
+class DecoyDuck extends Duck {
 
     @Override
     void display() {

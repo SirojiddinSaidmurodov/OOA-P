@@ -1,6 +1,6 @@
 package Strategy.HeadFirst;
 
-public class RedheadDuck extends Duck {
+class RedheadDuck extends Duck {
     RedheadDuck() {
         quackBehavior = new Squeak();
         flyBehavior = new FlyWithWings();

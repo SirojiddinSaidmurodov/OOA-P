@@ -1,6 +1,6 @@
 package Strategy.Garbage;
 
-public class RubberDuck extends Duck implements Quackable {
+class RubberDuck extends Duck implements Quackable {
 
     @Override
     void display() {
