@@ -1,5 +1,5 @@
 package Strategy.HeadFirst;
 
-public interface QuackBehavior {
+interface QuackBehavior {
     void quack();
 }

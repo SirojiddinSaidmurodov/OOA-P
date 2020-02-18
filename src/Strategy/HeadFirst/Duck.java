@@ -1,10 +1,18 @@
 package Strategy.HeadFirst;
 
-public abstract class Duck {
+abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
     public Duck() {
+    }
+
+    void setFlyBehavior(FlyBehavior fly) {
+        this.flyBehavior = fly;
+    }
+
+    void setQuackBehavior(QuackBehavior quack) {
+        this.quackBehavior = quack;
     }
 
     void performQuack() {

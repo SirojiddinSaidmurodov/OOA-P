@@ -1,5 +1,5 @@
 package Strategy.HeadFirst;
 
-public interface FlyBehavior {
+interface FlyBehavior {
     void fly();
 }
