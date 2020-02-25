@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class Carry implements WorkBehavior {
+class Carry implements WorkBehavior {
 
     @Override
     public void work(String subject) {

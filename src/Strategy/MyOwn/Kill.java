@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class Kill implements WorkBehavior {
+class Kill implements WorkBehavior {
 
     @Override
     public void work(String subject) {

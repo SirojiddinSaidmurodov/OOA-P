@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class Paint implements WorkBehavior {
+class Paint implements WorkBehavior {
 
     @Override
     public void work(String subject) {

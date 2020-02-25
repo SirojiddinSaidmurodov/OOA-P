@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class ArmyBot extends Robot {
+class ArmyBot extends Robot {
     ArmyBot() {
         moveBehavior = new MoveOnWheel();
         workBehavior = new Kill();

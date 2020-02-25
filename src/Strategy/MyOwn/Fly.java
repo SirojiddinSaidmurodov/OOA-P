@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class Fly implements MoveBehavior {
+class Fly implements MoveBehavior {
 
     @Override
     public void move(String place) {

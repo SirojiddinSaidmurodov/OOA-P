@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class DomesticAssistant extends Robot {
+class DomesticAssistant extends Robot {
     DomesticAssistant(){
         workBehavior = new Clean();
         moveBehavior = new MoveOnLegs();

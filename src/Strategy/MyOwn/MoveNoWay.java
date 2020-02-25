@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class MoveNoWay implements MoveBehavior {
+class MoveNoWay implements MoveBehavior {
 
     @Override
     public void move(String place) {
