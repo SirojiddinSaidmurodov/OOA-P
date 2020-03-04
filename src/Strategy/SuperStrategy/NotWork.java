@@ -1,10 +1,9 @@
 package Strategy.SuperStrategy;
 
-class Squeak implements QuackBehavior {
+class NotWork implements WorkBehavior {
 
     @Override
     public void performAction() {
-        System.out.println("Squeak!");
-
+        System.out.println("Do not working!");
     }
 }

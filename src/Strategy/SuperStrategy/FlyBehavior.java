@@ -1,5 +1,4 @@
 package Strategy.SuperStrategy;
 
-interface FlyBehavior {
-    void fly();
+interface FlyBehavior extends IMoveBehavior {
 }

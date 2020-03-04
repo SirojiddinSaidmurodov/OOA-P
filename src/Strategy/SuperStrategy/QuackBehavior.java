@@ -1,5 +1,4 @@
 package Strategy.SuperStrategy;
 
-interface QuackBehavior {
-    void quack();
+interface QuackBehavior extends IActionBehavior {
 }
