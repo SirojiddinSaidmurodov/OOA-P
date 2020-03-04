@@ -3,13 +3,13 @@ package Observer.HeadFirst;
 import java.util.ArrayList;
 
 class WeatherData implements Subject {
-    ArrayList observers;
+    ArrayList<Observer> observers;
     float temperature;
     float humidity;
     float pressure;
 
     WeatherData() {
-        observers = new ArrayList();
+        observers = new ArrayList<>();
     }
 
     public float getTemperature() {
