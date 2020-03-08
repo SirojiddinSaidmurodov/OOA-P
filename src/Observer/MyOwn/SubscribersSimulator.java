@@ -1,8 +1,9 @@
 package Observer.MyOwn;
 
-public class SubscribersSimulator {
+class SubscribersSimulator {
     public static void main(String[] args) {
-        Magazine playboy = new Magazine();
+        Magazine magazine = new Magazine();
+        Magazine.InnerObservable playboy = magazine.getInnerObservable();
         new Subscriber(playboy, "Sergey");
         new Subscriber(playboy, "Dilafruz");
         new Subscriber(playboy, "Andrew");

@@ -1,5 +1,8 @@
 package Decorator.Garbage;
 
-public class Decaf {
-
+class Decaf extends Beverage {
+    @Override
+    double cost() {
+        return super.cost() + 0.55;
+    }
 }

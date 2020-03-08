@@ -1,5 +1,11 @@
 package Decorator.HeadFirst;
 
-public class Beverage {
+abstract class Beverage {
+    String description;
 
+    public String getDescription() {
+        return description;
+    }
+
+    abstract double cost();
 }

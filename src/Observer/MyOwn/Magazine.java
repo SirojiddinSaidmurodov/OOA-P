@@ -2,20 +2,47 @@ package Observer.MyOwn;
 
 import java.util.Observable;
 
-class Magazine extends Observable {
-    private String release;
+class Magazine {
+    String release;
+    private InnerObservable innerObservable;
 
-    public void newReleased() {
-        setChanged();
-        notifyObservers();
+    public InnerObservable getInnerObservable() {
+        return innerObservable;
+    }
+
+    public Magazine() {
+        innerObservable = new InnerObservable();
+    }
+
+    public String getRelease() {
+        return innerObservable.getRelease();
     }
 
     public void postMagazine(String article) {
         release = article;
-        newReleased();
+        innerObservable.postMagazine(article);
     }
 
-    public String getRelease() {
-        return release;
+    public void newRelease() {
+        innerObservable.newReleased();
+    }
+
+
+    public class InnerObservable extends Observable {
+        String release;
+
+        public void newReleased() {
+            setChanged();
+            notifyObservers(Magazine.this);
+        }
+
+        public void postMagazine(String article) {
+            release = article;
+            newReleased();
+        }
+
+        public String getRelease() {
+            return release;
+        }
     }
 }

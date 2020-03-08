@@ -17,8 +17,8 @@ class Subscriber implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        if (o instanceof Magazine) {
-            Magazine magazine = (Magazine) o;
+        if (arg instanceof Magazine) {
+            Magazine magazine = (Magazine) arg;
             this.content = magazine.getRelease();
             makeReview();
         }

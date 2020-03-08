@@ -1,5 +1,11 @@
 package Decorator.HeadFirst;
 
-public class HouseBlend {
-
+class HouseBlend extends Beverage {
+    public HouseBlend(){
+        description = "House blend";
+    }
+    @Override
+    double cost() {
+        return 0.85;
+    }
 }

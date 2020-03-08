@@ -1,6 +1,6 @@
 package Strategy.MyOwn;
 
-public class RobotsSimulator {
+class RobotsSimulator {
     public static void main(String[] args) {
         Robot carrier = new PackageCarrier();
         carrier.display();

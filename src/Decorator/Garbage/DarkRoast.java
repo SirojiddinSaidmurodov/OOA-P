@@ -1,5 +1,8 @@
 package Decorator.Garbage;
 
-public class DarkRoast {
-
+class DarkRoast extends Beverage {
+    @Override
+    double cost() {
+        return super.cost() + 0.67;
+    }
 }

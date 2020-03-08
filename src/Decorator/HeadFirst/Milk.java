@@ -1,5 +1,13 @@
 package Decorator.HeadFirst;
 
-public class Milk {
+class Milk extends CondimentDecorator {
+    public Milk(Beverage beverage){
+        this.beverage = beverage;
+        description = ", Milk";
+    }
+    @Override
+    double cost() {
+        return beverage.cost() + .15;
+    }
 
 }

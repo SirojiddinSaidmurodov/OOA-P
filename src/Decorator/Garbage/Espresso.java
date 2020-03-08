@@ -1,5 +1,8 @@
 package Decorator.Garbage;
 
-public class Espresso {
-
+class Espresso extends Beverage {
+    @Override
+    double cost() {
+        return super.cost() + 1;
+    }
 }
