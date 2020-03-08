@@ -1,5 +1,5 @@
 package Strategy.Garbage;
 
-interface Quackable {
+public interface Quackable {
     void quack();
 }

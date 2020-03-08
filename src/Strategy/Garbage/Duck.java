@@ -1,6 +1,6 @@
 package Strategy.Garbage;
 
-abstract class Duck {
+public abstract class Duck {
     void swim() {
         System.out.println("Swimming");
     }

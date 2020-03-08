@@ -1,5 +1,5 @@
 package Strategy.Garbage;
 
-interface Flyable {
+public interface Flyable {
     void fly();
 }
