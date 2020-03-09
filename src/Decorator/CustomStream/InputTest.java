@@ -2,13 +2,13 @@ package Decorator.CustomStream;
 
 import java.io.*;
 
-public class InputTest {
+class InputTest {
     public static void main(String[] args) {
         int c;
         try{
             InputStream in = new LowerCaseInputStream(
                     new BufferedInputStream(
-                            new FileInputStream("test.txt")));
+                            new FileInputStream("src/Decorator/CustomStream/test.txt")));
             while ((c = in.read()) >= 0){
                 System.out.print((char) c);
             }
