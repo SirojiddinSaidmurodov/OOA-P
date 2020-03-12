@@ -16,7 +16,7 @@ abstract class Car {
     @Override
     public String toString() {
         return getDescription() +
-                ", topSpeed= " + topSpeed + " km/h" +
+                ": topSpeed= " + topSpeed + " km/h" +
                 ", acceleration= " + acceleration + " sTo100" +
                 ", weight= " + weight + " kg" +
                 ", power= " + power + " HP\n";
