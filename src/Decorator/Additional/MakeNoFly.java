@@ -10,6 +10,5 @@ class MakeNoFly extends DuckDecorator {
     @Override
     void display() {
         duck.display();
-        System.out.println("But I can't fly");
     }
 }
