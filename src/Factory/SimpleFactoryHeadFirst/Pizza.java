@@ -1,4 +1,4 @@
-package Factory.SimpleFactory;
+package Factory.SimpleFactoryHeadFirst;
 
 class Pizza {
     void prepare() {

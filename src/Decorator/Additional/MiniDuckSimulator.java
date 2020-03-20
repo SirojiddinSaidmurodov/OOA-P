@@ -6,12 +6,7 @@ class MiniDuckSimulator {
         mallard.performQuack();
         mallard.performFly();
         System.out.println("**********************************");
-        Duck edited = new MakeNoFly(mallard);
-        edited.performQuack();
-        edited.performFly();
-        System.out.println("**********************************");
-        Duck edited2 = new MakeSqueak(new MakeNoFly(mallard));
-        edited2.performQuack();
-        edited2.performFly();
+        mallard.setFlyBehavior(new FlyMakeNoWay(new FlyRocketPowered()));
+        mallard.performFly();
     }
 }
