@@ -2,7 +2,7 @@ package Factory.FactoryOfFactories;
 
 class PizzaSim {
     public static void main(String[] args) {
-        FFactory fFactory = new FFactory();
+        IFFactory fFactory = new FFactory();
         IFactory factory = fFactory.createFactory(factoryType.Ord);
         factory.create(pizzaType.B).prepare();
         factory.create(pizzaType.C).prepare();

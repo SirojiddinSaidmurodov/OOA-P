@@ -5,7 +5,7 @@ enum factoryType {
     Veg
 }
 
-class FFactory {
+class FFactory implements IFFactory {
     public IFactory createFactory(factoryType type) {
         return switch (type) {
             case Ord -> new FactoryOrd();
