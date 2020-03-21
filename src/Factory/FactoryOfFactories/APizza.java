@@ -1,6 +1,6 @@
 package Factory.FactoryOfFactories;
 
-abstract class IPizza {
+abstract class APizza {
     abstract void prepare();
 
     void bake() {
@@ -8,7 +8,7 @@ abstract class IPizza {
     }
 }
 
-class PizzaAOrd extends IPizza {
+class PizzaAOrd extends APizza {
 
     @Override
     public void prepare() {
@@ -16,7 +16,7 @@ class PizzaAOrd extends IPizza {
     }
 }
 
-class PizzaBOrd extends IPizza {
+class PizzaBOrd extends APizza {
 
     @Override
     public void prepare() {
@@ -24,7 +24,7 @@ class PizzaBOrd extends IPizza {
     }
 }
 
-class PizzaCOrd extends IPizza {
+class PizzaCOrd extends APizza {
     @Override
     public void prepare() {
         System.out.println("COrd");
@@ -32,7 +32,7 @@ class PizzaCOrd extends IPizza {
 }
 
 
-class PizzaAVeg extends IPizza {
+class PizzaAVeg extends APizza {
 
     @Override
     public void prepare() {
@@ -40,7 +40,7 @@ class PizzaAVeg extends IPizza {
     }
 }
 
-class PizzaBVeg extends IPizza {
+class PizzaBVeg extends APizza {
 
     @Override
     public void prepare() {
@@ -48,7 +48,7 @@ class PizzaBVeg extends IPizza {
     }
 }
 
-class PizzaCVeg extends IPizza {
+class PizzaCVeg extends APizza {
     @Override
     public void prepare() {
         System.out.println("CVeg");

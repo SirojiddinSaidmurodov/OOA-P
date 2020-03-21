@@ -7,5 +7,5 @@ enum pizzaType {
 }
 
 interface IFactory {
-    IPizza create(pizzaType type);
+    APizza create(pizzaType type);
 }
