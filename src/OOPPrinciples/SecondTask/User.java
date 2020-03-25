@@ -22,6 +22,4 @@ class User {
         }
         new Query().printToLog();
     }
-
-
 }

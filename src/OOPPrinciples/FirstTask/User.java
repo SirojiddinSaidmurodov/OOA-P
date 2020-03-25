@@ -12,8 +12,7 @@ class User {
     public static void main(String[] args) {
         User user = new User("user1", "psw1");
         user.createQuery();
-        Query query = user.new Query();
-        query.printToLog();
+        user.new Query().printToLog();
         new User("anotherUser", "psw2").new Query().printToLog();
     }
 
