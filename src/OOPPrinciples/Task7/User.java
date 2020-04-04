@@ -1,4 +1,4 @@
-package OOPPrinciples.EighthTask;
+package OOPPrinciples.Task7;
 
 class User {
     private String login;
@@ -13,22 +13,14 @@ class User {
 
     public static void main(String[] args) {
         User user = new User("user1", "psw1", INames.AccessRights.ADMIN);
-        try {
-            user.createQuery();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        user.createQuery();
         user.new Query().printToLog();
         new User("anotherUser", "psw2", INames.AccessRights.GUEST).new Query().printToLog();
 
     }
 
-    void createQuery() throws Exception {
-        if (rights == INames.AccessRights.USER) {
-            new Query().printToLog();
-        } else {
-            throw new Ex();
-        }
+    void createQuery() {
+        new Query().printToLog();
     }
 
     interface INames {
@@ -45,13 +37,6 @@ class User {
         void printToLog() {
             System.out.println(rights.toString() + "  " + login + " :: " + password
                     + " sent request for " + INames.line);
-        }
-    }
-
-    private class Ex extends Exception {
-        @Override
-        public String toString() {
-            return rights.toString() + "  " + login + " doesn't have rights for sending request";
         }
     }
 }

@@ -1,4 +1,4 @@
-package OOPPrinciples.SecondTask;
+package OOPPrinciples.Task4;
 
 class User {
     private String login;
@@ -12,14 +12,24 @@ class User {
     public static void main(String[] args) {
         User user = new User("user1", "psw1");
         user.createQuery();
+        IQuery query = new IQuery() {
+        };
+        query.printToLog();
     }
 
     void createQuery() {
-        class Query {
-            void printToLog() {
+        IQuery query = new IQuery() {
+            @Override
+            public void printToLog() {
                 System.out.println("User " + login + " :: " + password + " sent request");
             }
+        };
+        query.printToLog();
+    }
+
+    interface IQuery {
+        default void printToLog() {
+            System.out.println("User " + " :: " + " sent request");
         }
-        new Query().printToLog();
     }
 }

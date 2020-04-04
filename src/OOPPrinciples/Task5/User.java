@@ -1,12 +1,13 @@
-package OOPPrinciples.FifthTask;
+package OOPPrinciples.Task5;
 
-interface IQuery {
-    static void printToLog(User user) {
-        System.out.println("User " + user.login + " :: " + user.password + " sent request");
-    }
-}
 
 class User {
+    interface IQuery {
+        static void printToLog(User user) {
+            System.out.println("User " + user.login + " :: " + user.password + " sent request");
+        }
+    }
+
     public String login;
     public String password;
 

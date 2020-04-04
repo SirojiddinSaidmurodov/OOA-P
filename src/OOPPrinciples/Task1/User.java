@@ -1,4 +1,4 @@
-package OOPPrinciples.FirstTask;
+package OOPPrinciples.Task1;
 
 class User {
     private String login;

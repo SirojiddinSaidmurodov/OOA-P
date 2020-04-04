@@ -1,4 +1,4 @@
-package OOPPrinciples.SixthTask;
+package OOPPrinciples.Task6;
 
 class User {
     private String login;
