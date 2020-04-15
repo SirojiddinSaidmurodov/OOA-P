@@ -5,5 +5,7 @@ class Simulator {
         Hunter hunter = new Hunter("Martin");
         Deer deer = new Deer();
         hunter.hunt(deer);
+        WildAnimals sheep = new WildAdapter(new Sheep());
+        hunter.hunt(sheep);
     }
 }

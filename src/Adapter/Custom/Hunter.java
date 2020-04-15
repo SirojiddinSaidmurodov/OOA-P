@@ -7,7 +7,7 @@ class Hunter {
         this.name = name;
     }
 
-    public void hunt(Deer deer) {
-        deer.die(this);
+    public void hunt(WildAnimals wild) {
+        wild.die(this);
     }
 }
