@@ -1,4 +1,4 @@
-package Composite.OwnExample;
+package Visitor.MyOwnExample;
 
 class Program {
 
@@ -29,6 +29,7 @@ class Program {
         all.add(noAngles);
         all.add(angle);
 
-        all.print();
+        Visitor visitor = new Visitor();
+        visitor.export(all);
     }
 }
