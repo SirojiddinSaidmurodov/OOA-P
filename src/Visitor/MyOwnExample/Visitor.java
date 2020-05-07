@@ -7,18 +7,17 @@ class Visitor {
         stringBuilder.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
         for (Graphic graphic : compositeGraphic.mChildGraphics) {
             stringBuilder.append(graphic.accept(this));
-
         }
         System.out.println(stringBuilder.toString());
     }
 
-    public String visitFigure(Figure figure) {
+    public String visit(Figure figure) {
         return "<figure>\n" +
                 "    <name>" + figure.name + "</name>\n" +
                 "</figure>";
     }
 
-    public String visitCG(CompositeGraphic cg) {
+    public String visit(CompositeGraphic cg) {
         return "<composite_graphic>" + "\n" +
                 _visitCompositeGraphic(cg) +
                 "</composite_graphic>\n";

@@ -16,7 +16,7 @@ class Figure implements Graphic {
 
     @Override
     public String accept(Visitor visitor) {
-        return visitor.visitFigure(this);
+        return visitor.visit(this);
     }
 
 }

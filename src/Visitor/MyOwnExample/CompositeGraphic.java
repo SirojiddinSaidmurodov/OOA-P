@@ -26,7 +26,7 @@ class CompositeGraphic implements Graphic {
 
     @Override
     public String accept(Visitor visitor) {
-        return visitor.visitCG(this);
+        return visitor.visit(this);
     }
 
     public void add(Graphic graphic) {
