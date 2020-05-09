@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Strategy.HeadFirst</OriginalElement>
+  <nodes>
+    <node x="597.057619047619" y="163.0">Strategy.HeadFirst.FlyWithWings</node>
+    <node x="196.0" y="163.0">Strategy.HeadFirst.FlyNoWay</node>
+    <node x="538.92" y="296.0">Strategy.HeadFirst.RedheadDuck</node>
+    <node x="350.807619047619" y="399.0">Strategy.HeadFirst.MiniDuckSimulator</node>
+    <node x="0.0" y="163.0">Strategy.HeadFirst.FlyRocketPowered</node>
+    <node x="694.92" y="296.0">Strategy.HeadFirst.MallardDuck</node>
+    <node x="877.057619047619" y="163.0">Strategy.HeadFirst.Quack</node>
+    <node x="328.0" y="163.0">Strategy.HeadFirst.MuteQuack</node>
+    <node x="475.78571428571433" y="163.0">Strategy.HeadFirst.Duck</node>
+    <node x="307.8" y="296.0">Strategy.HeadFirst.ModelDuck</node>
+    <node x="761.057619047619" y="163.0">Strategy.HeadFirst.Squeak</node>
+    <node x="352.162380952381" y="0.0">Strategy.HeadFirst.FlyBehavior</node>
+    <node x="508.162380952381" y="0.0">Strategy.HeadFirst.QuackBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Strategy.HeadFirst.FlyWithWings" target="Strategy.HeadFirst.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="669.057619047619" y="93.0" />
+      <point x="474.562380952381" y="93.0" />
+      <point x="54.39999999999998" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.Quack" target="Strategy.HeadFirst.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="921.057619047619" y="73.0" />
+      <point x="644.962380952381" y="73.0" />
+      <point x="60.80000000000001" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.FlyRocketPowered" target="Strategy.HeadFirst.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="88.0" y="103.0" />
+      <point x="365.762380952381" y="103.0" />
+      <point x="-54.39999999999998" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.MuteQuack" target="Strategy.HeadFirst.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="388.0" y="123.0" />
+      <point x="523.3623809523809" y="123.0" />
+      <point x="-60.80000000000001" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.RedheadDuck" target="Strategy.HeadFirst.Duck">
+      <point x="-51.0" y="-26.5" />
+      <point x="555.92" y="276.0" />
+      <point x="515.7857142857143" y="276.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.MallardDuck" target="Strategy.HeadFirst.Duck">
+      <point x="-17.0" y="-26.5" />
+      <point x="745.92" y="246.0" />
+      <point x="550.0714285714287" y="246.0" />
+      <point x="34.28571428571428" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.ModelDuck" target="Strategy.HeadFirst.Duck">
+      <point x="45.0" y="-26.5" />
+      <point x="412.8" y="266.0" />
+      <point x="492.92857142857144" y="266.0" />
+      <point x="-22.85714285714289" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.Squeak" target="Strategy.HeadFirst.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="809.057619047619" y="83.0" />
+      <point x="614.562380952381" y="83.0" />
+      <point x="30.400000000000034" y="26.5" />
+    </edge>
+    <edge source="Strategy.HeadFirst.FlyNoWay" target="Strategy.HeadFirst.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="252.0" y="113.0" />
+      <point x="392.96238095238095" y="113.0" />
+      <point x="-27.19999999999999" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="483.0" y="226.0" />
+  <SelectedNodes>
+    <node>Strategy.HeadFirst.FlyBehavior</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

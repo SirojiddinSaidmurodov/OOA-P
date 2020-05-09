@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Facade.HeadFirst</OriginalElement>
+  <nodes>
+    <node x="256.70408950617286" y="309.0">Facade.HeadFirst.Screen</node>
+    <node x="546.7040895061729" y="309.0">Facade.HeadFirst.PopcornPopper</node>
+    <node x="0.0" y="452.0">Facade.HeadFirst.HomeTheaterFacade</node>
+    <node x="298.25" y="0.0">Facade.HeadFirst.CdPlayer</node>
+    <node x="119.95408950617286" y="103.0">Facade.HeadFirst.Amplifier</node>
+    <node x="90.67592592592595" y="206.0">Facade.HeadFirst.DvdPlayer</node>
+    <node x="373.70408950617286" y="309.0">Facade.HeadFirst.TheaterLights</node>
+    <node x="96.67592592592595" y="0.0">Facade.HeadFirst.Tuner</node>
+    <node x="90.67592592592595" y="309.0">Facade.HeadFirst.Projector</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.CdPlayer">
+      <point x="215.53125" y="-27.5" />
+      <point x="529.03125" y="432.0" />
+      <point x="536.2040895061729" y="432.0" />
+      <point x="536.2040895061729" y="83.0" />
+      <point x="396.25" y="83.0" />
+      <point x="42.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.TheaterLights">
+      <point x="137.15625" y="-27.5" />
+      <point x="450.65625" y="382.0" />
+      <point x="411.70408950617286" y="382.0" />
+      <point x="-38.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.DvdPlayer" target="Facade.HeadFirst.Amplifier">
+      <point x="-45.0" y="-26.5" />
+      <point x="105.67592592592595" y="186.0" />
+      <point x="129.95408950617286" y="186.0" />
+      <point x="-50.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.Amplifier">
+      <point x="-58.78125" y="-27.5" />
+      <point x="254.71875" y="432.0" />
+      <point x="235.20408950617286" y="432.0" />
+      <point x="235.20408950617286" y="186.0" />
+      <point x="209.95408950617286" y="186.0" />
+      <point x="30.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.Amplifier" target="Facade.HeadFirst.CdPlayer">
+      <point x="30.0" y="-26.5" />
+      <point x="209.95408950617286" y="73.0" />
+      <point x="312.25" y="73.0" />
+      <point x="-42.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.Projector" target="Facade.HeadFirst.DvdPlayer">
+      <point x="30.0" y="-26.5" />
+      <point x="180.67592592592595" y="284.0" />
+      <point x="165.67592592592595" y="284.0" />
+      <point x="15.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.Amplifier" target="Facade.HeadFirst.Tuner">
+      <point x="-50.0" y="-26.5" />
+      <point x="129.95408950617286" y="83.0" />
+      <point x="133.34259259259258" y="83.0" />
+      <point x="-7.333333333333371" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.Screen">
+      <point x="58.78125" y="-27.5" />
+      <point x="372.28125" y="402.0" />
+      <point x="328.70408950617286" y="402.0" />
+      <point x="24.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.Tuner" target="Facade.HeadFirst.Amplifier">
+      <point x="36.66666666666663" y="26.5" />
+      <point x="177.34259259259258" y="83.0" />
+      <point x="189.95408950617286" y="83.0" />
+      <point x="10.0" y="-26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.PopcornPopper">
+      <point x="293.90625" y="-27.5" />
+      <point x="607.40625" y="432.0" />
+      <point x="660.7040895061729" y="432.0" />
+      <point x="38.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.Tuner">
+      <point x="-254.71875" y="-27.5" />
+      <point x="58.78125" y="432.0" />
+      <point x="65.86998456790121" y="432.0" />
+      <point x="65.86998456790121" y="83.0" />
+      <point x="118.67592592592595" y="83.0" />
+      <point x="-22.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.DvdPlayer">
+      <point x="-215.53125" y="-27.5" />
+      <point x="97.96875" y="432.0" />
+      <point x="78.17592592592595" y="432.0" />
+      <point x="78.17592592592595" y="284.0" />
+      <point x="105.67592592592595" y="284.0" />
+      <point x="-45.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.HomeTheaterFacade" target="Facade.HeadFirst.Projector">
+      <point x="-176.34375" y="-27.5" />
+      <point x="137.15625" y="432.0" />
+      <point x="120.67592592592595" y="432.0" />
+      <point x="-30.0" y="26.5" />
+    </edge>
+    <edge source="Facade.HeadFirst.Amplifier" target="Facade.HeadFirst.DvdPlayer">
+      <point x="-10.0" y="26.5" />
+      <point x="169.95408950617286" y="186.0" />
+      <point x="165.67592592592595" y="186.0" />
+      <point x="15.0" y="-26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="337.0" y="243.5" />
+  <SelectedNodes>
+    <node>Facade.HeadFirst.Screen</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
