@@ -7,8 +7,8 @@
     <node x="476.00000000000006" y="133.0">Factory.FactoryMethodHeadFirst.ChicagoVeggiePizza</node>
     <node x="1504.0" y="133.0">Factory.FactoryMethodHeadFirst.ChicagoClamPizza</node>
     <node x="688.0" y="133.0">Factory.FactoryMethodHeadFirst.NYVeggiePizza</node>
-    <node x="148.0" y="133.0">Factory.FactoryMethodHeadFirst.NYCheesePizza</node>
     <node x="624.0" y="0.0">Factory.FactoryMethodHeadFirst.Pizza</node>
+    <node x="148.0" y="133.0">Factory.FactoryMethodHeadFirst.NYCheesePizza</node>
     <node x="0.0" y="133.0">Factory.FactoryMethodHeadFirst.PizzaStore</node>
     <node x="1268.0" y="133.0">Factory.FactoryMethodHeadFirst.ChicagoPepperoniPizza</node>
     <node x="1072.0" y="133.0">Factory.FactoryMethodHeadFirst.NYPepperoniPizza</node>
@@ -40,12 +40,6 @@
       <point x="637.2" y="83.0" />
       <point x="-30.799999999999955" y="26.5" />
     </edge>
-    <edge source="Factory.FactoryMethodHeadFirst.PizzaStore" target="Factory.FactoryMethodHeadFirst.Pizza">
-      <point x="0.0" y="-26.5" />
-      <point x="64.0" y="73.0" />
-      <point x="628.4000000000001" y="73.0" />
-      <point x="-39.60000000000002" y="26.5" />
-    </edge>
     <edge source="Factory.FactoryMethodHeadFirst.NYPepperoniPizza" target="Factory.FactoryMethodHeadFirst.Pizza">
       <point x="0.0" y="-26.5" />
       <point x="1160.0" y="93.0" />
@@ -71,7 +65,7 @@
       <point x="-4.399999999999977" y="26.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.778235294117647" x="840.0" y="93.0" />
+  <settings layout="Hierarchic Group" zoom="0.5841176470588235" x="840.0" y="82.0" />
   <SelectedNodes>
     <node>Factory.FactoryMethodHeadFirst.PizzaStore</node>
   </SelectedNodes>
