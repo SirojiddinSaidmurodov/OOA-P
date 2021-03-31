@@ -16,8 +16,10 @@
     - [Composite](src/StructuralPatterns/Composite)
     - [Decorator](src/StructuralPatterns/Decorator)
     - [Facade](src/StructuralPatterns/Facade)
+
 - Behavioral patterns
     - [Iterator](src/BehavioralPatterns/Iterator)
     - [Observer](src/BehavioralPatterns/Observer)
     - [Strategy](src/BehavioralPatterns/Strategy)
     - [Visitor](src/BehavioralPatterns/Visitor)
+    - [State](src/BehavioralPatterns/State)
