@@ -49,4 +49,13 @@ public class GumballMachine {
             count -= 1;
         }
     }
+
+    @Override
+    public String toString() {
+        return "GumballMachine{" +
+                "log=" + log +
+                ", count=" + count +
+                ", state=" + state +
+                '}';
+    }
 }

@@ -1,10 +1,10 @@
 package BehavioralPatterns.State.headfirst;
 
 public class Sold implements State {
-    GumballMachine machine;
+    GumballMachine gumballMachine;
 
     public Sold(GumballMachine gumballMachine) {
-
+        this.gumballMachine = gumballMachine;
     }
 
     @Override
@@ -25,12 +25,17 @@ public class Sold implements State {
     @Override
     public void dispense() {
         System.out.println("A gumball comes rolling out the slot");
-        machine.count -= 1;
-        if (machine.count == 0) {
+        gumballMachine.count -= 1;
+        if (gumballMachine.count == 0) {
             System.out.println("Oops, out of gumballs!");
-            machine.setState(machine.soldOutState);
+            gumballMachine.setState(gumballMachine.soldOutState);
         } else {
-            machine.setState(machine.noQuarterState);
+            gumballMachine.setState(gumballMachine.noQuarterState);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Sold";
     }
 }
